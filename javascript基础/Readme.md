@@ -42,8 +42,32 @@ points.dist();
 
 - ES6新特性
   1. let,const
+  
+     ```javascript
+     /*
+     let，const相对于var最大的区别在于引入了块级作用域(之前只有全局和局部)
+     */
+     ```
+  
+     例如下面的代码（输出为？）
+  
+     ```javascript
+     let x="hahahah";
+     if(true){
+       let x="niuniu";
+       console.log(x);
+     }
+     //niuniu
+     ```
+  
   2. 模板字面量
+  
   3. 解构
+  
   4. 展开操作符
+  
   5. 箭头函数
+  
   6. 类
+  
+     
