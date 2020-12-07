@@ -78,5 +78,11 @@ points.dist();
 
   floor地板ceil天花板round附近
 
+- Number.ToInteger():**fsign(number)×floor(abs(number))**
+
+  负数向上取整，正数向下取整
+
+- 
+
 
 
