@@ -1,3 +1,7 @@
+<center> <h1>基础</h1></center>
+
+<small>打磨时期</small>
+
 - this 关键字是对定义方法的对象的引用
 
 ```javascript
@@ -69,5 +73,10 @@ points.dist();
   5. 箭头函数
   
   6. 类
-  
-     
+
+- Math.Floor();Math.Ceil();Math.round()
+
+  floor地板ceil天花板round附近
+
+
+
