@@ -82,7 +82,23 @@ points.dist();
 
   负数向上取整，正数向下取整
 
-- 
+- devdependencies和devDependencies:
 
+  1. 前者用于生产环境和开发环境，后者用于开发环境
+  2. 通过NODE_ENV指定（production，development）
+  3. --save和--save-dev
 
+  https://zhuanlan.zhihu.com/p/92022759
+
+- 包装对象
+
+```js
+var s="text";
+s.len=4;
+var t=.len;
+```
+
+上述代码t的值为undefined
+
+第二行：创建了一个临时字符串对象，并给其len属性赋值为4，**随即销毁这个对象**
 
