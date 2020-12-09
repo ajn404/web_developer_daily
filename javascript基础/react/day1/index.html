@@ -6,9 +6,23 @@
     <title>Document</title>
 
     <script src="./node_modules/react/umd/react.development.js"></script>
-    <script src=""></script>
+    <script src="./node_modules/react-dom/umd/react-dom.development.js"></script>
+    <script src="./node_modules/babel-standalone/babel.min.js"></script>
 </head>
 <body>
+    <!-- 创建页面根节点，根节点下的内容会被react管理 -->
+    <div id="demoReact"></div>
+    <script type="text/babel">
+    
+    // JSX javascript+xml
+    // 执行效率快，编写模板简单快速
+    // 类型安全：编译过程发现错误
+
+    let myDom=<h1>你好世界</h1>;
+    ReactDOM.render(myDom,document.getElementById("demoReact"));
+    
+    
+    </script>
     
 </body>
 </html>
