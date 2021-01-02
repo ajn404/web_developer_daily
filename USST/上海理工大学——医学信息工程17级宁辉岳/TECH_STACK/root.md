@@ -1,3 +1,13 @@
+**[Source Idea](./source_idea.pdf)**
+
+| http://t.cn/A6qHeVlf 计算机科学免费大教材 |
+| ----------------------------------------- |
+|                                           |
+|                                           |
+|                                           |
+
+
+
 # [逻辑基础](./lf/toc.html)
 
 - 函数式编程
@@ -45,17 +55,10 @@
       end.
     ```
 
-    
-
 - 逻辑
-
-  
 
 - 计算机辅助定理证明
 
-- Coq
-
-  
 
 **[Docker命令速查表](./cheatSheet/Docker_Cheat_Sheet.pdf)**
 
