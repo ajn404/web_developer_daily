@@ -1,0 +1,1 @@
+document.write("it works from a.js"); 
