@@ -47,6 +47,36 @@
     </div>
   </div>
 
+
+<script type="text/javascript" src="https://unpkg.com/vtk.js"></script>  
+<script type="text/javascript">  
+    const cone = vtk.Filters.Sources.vtkConeSource.newInstance();  
+    const mapper = vtk.Rendering.Core.vtkMapper.newInstance();  
+    const actor = vtk.Rendering.Core.vtkActor.newInstance();  
+    mapper.setInputConnection(cone.getOutputPort());  
+    actor.setMapper(mapper);  
+   
+    const fullRender = vtk.Rendering.Misc.vtkFullScreenRenderWindow.newInstance();  
+    const render = fullRender.getRenderer();  
+    render.addActor(actor);  
+    render.resetCamera();  
+   
+    const renderWindow = fullRender.getRenderWindow();  
+    renderWindow.render();  <script type="text/javascript" src="https://unpkg.com/vtk.js"></script>  
+<script type="text/javascript">  
+    const cone = vtk.Filters.Sources.vtkConeSource.newInstance();  
+    const mapper = vtk.Rendering.Core.vtkMapper.newInstance();  
+    const actor = vtk.Rendering.Core.vtkActor.newInstance();  
+    mapper.setInputConnection(cone.getOutputPort());  
+    actor.setMapper(mapper);  
+   
+    const fullRender = vtk.Rendering.Misc.vtkFullScreenRenderWindow.newInstance();  
+    const render = fullRender.getRenderer();  
+    render.addActor(actor);  
+    render.resetCamera();  
+   
+    const renderWindow = fullRender.getRenderWindow();  
+    renderWindow.render();  
   <audio data-key="65" src="sounds/clap.wav"></audio>
   <audio data-key="83" src="sounds/hihat.wav"></audio>
   <audio data-key="68" src="sounds/kick.wav"></audio>
